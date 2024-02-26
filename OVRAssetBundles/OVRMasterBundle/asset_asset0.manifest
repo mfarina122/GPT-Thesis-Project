@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3440012790
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6dbd4be98c8d51eba88ab1ff8113375d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bee834ebf854f1702965498766de6274
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitAppInfo
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitComposerInfo
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitEntityInfo
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitEntityRoleInfo
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitIntentInfo
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitTraitInfo
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitTraitValueInfo
+- AssemblyName: Meta.WitAi.Lib
+  ClassName: Meta.WitAi.Data.Info.WitVoiceInfo
+- AssemblyName: Meta.WitAi
+  ClassName: Meta.WitAi.Configuration.WitEndpointConfig
+Assets:
+- Assets/Oculus/Voice/Demo/Data/Timer Builtins - WitConfiguration.asset
+Dependencies: []

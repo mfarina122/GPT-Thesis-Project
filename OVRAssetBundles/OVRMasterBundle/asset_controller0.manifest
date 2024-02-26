@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3536057854
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f308f22fecb5142083e26949f3cf1cab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e8df1f9f82371e82de919a94edcc7dd6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/LeftHandAnimator.controller
+- Assets/ControllerFinal.controller
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/RightHandAnimator.controller
+Dependencies:
+- C:/Users/super/Desktop/GPTThesisProject/OVRAssetBundles/OVRMasterBundle/asset_fbx0

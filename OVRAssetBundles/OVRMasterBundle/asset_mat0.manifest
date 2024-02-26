@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 218716043
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a5f4d06585eca0e75b56726092a33a89
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/DebugDrawLine.mat
+- Assets/Scenes/BasicScene/Grid.mat
+- Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_solid.mat
+Dependencies:
+- C:/Users/super/Desktop/GPTThesisProject/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/super/Desktop/GPTThesisProject/OVRAssetBundles/OVRMasterBundle/asset_shader0
