@@ -33,7 +33,7 @@ public class InteractionNPC : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        api = new OpenAIAPI(Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User));
+        api = new OpenAIAPI("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"/*Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User)*/);
         messages = new List<ChatMessage> {
             new ChatMessage(ChatMessageRole.System, "Questo è un altro messaggio di test")
         };
@@ -87,7 +87,7 @@ public class InteractionNPC : MonoBehaviour
         GameObject.Find("Pulsante").GetComponentInChildren<TextMeshProUGUI>().text = "Push to talk";
         appVoiceExperience.Deactivate();
         text.text = "Message stopped";
-        speaker.StopSpeaking();
+        speaker.Stop();
     }
 
     private void OnStartListening()
