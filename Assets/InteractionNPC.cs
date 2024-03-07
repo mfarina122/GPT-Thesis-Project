@@ -33,7 +33,7 @@ public class InteractionNPC : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        api = new OpenAIAPI("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"/*Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User)*/);
+        api = new OpenAIAPI("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"/*Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User)*/);
         messages = new List<ChatMessage> {
             new ChatMessage(ChatMessageRole.System, "Questo è un altro messaggio di test")
         };
@@ -106,7 +106,7 @@ public class InteractionNPC : MonoBehaviour
     {
         Debug.Log("Hai detto ");
         Debug.Log(response["text"]);
-        text.text = "You said: " + response["text"];
+        //text.text = "You said: " + response["text"];
         //appVoiceExperience.Deactivate();
         //if(response["text"].ToString().Length != 2)
         //speaker.Speak("You said "+ response["text"]);
@@ -166,7 +166,7 @@ public class InteractionNPC : MonoBehaviour
         // Send the entire chat to OpenAI to get the next message
         var chatResult = await api.Chat.CreateChatCompletionAsync(new ChatRequest()
         {
-            Model = Model.ChatGPTTurbo,
+            Model = "gpt-4-turbo-preview",
             Temperature = 0.9,
             MaxTokens = 125,
             Messages = messages
