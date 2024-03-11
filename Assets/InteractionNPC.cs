@@ -33,7 +33,7 @@ public class InteractionNPC : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        api = new OpenAIAPI("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"/*Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User)*/);
+        api = new OpenAIAPI("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"/*Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User)*/);
         messages = new List<ChatMessage> {
             new ChatMessage(ChatMessageRole.System, "Questo è un altro messaggio di test")
         };
